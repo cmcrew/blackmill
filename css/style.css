@@ -1,0 +1,185 @@
+/*General Styles*/
+
+body {
+	font-family: helvetica,arial, sans-serif;
+	background: #000;
+}
+header {
+	position:relative;
+	top:0;
+	z-index:8;
+	background: url(../images/blackmill.jpg);
+	opacity:0.9;
+	background-size: 100%;
+	background-position: 0 -150px;
+	height: 300px;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/*border: 1px solid blue;*/
+}
+nav {
+	position:fixed;
+	top:0;
+	z-index:10;
+	width:100%;
+	height:50px;
+	text-align: right;
+	/* Adds shadow to the bottom of the bar */
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	/* Adds the transparent background */
+	background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8);
+}
+footer {
+	margin-top:20px;
+	float:left;
+	width:100%;
+	height:100px;
+	/*background:#333;*/
+	background:url(../images/pattern3.png);
+	/*border: 2px solid red;*/
+}
+ul {
+	float:right;
+	margin-right:5%;
+}
+li {
+	display: inline-block;
+}
+p, a {
+	font-weight: 200;
+	line-height: 1.2em;
+	font-size: 1em;
+	color:#ccc;
+}
+a {
+	color:#376db9;
+	text-decoration: none;
+}
+a:hover {
+	color:#fff;
+}
+ul#links {
+	display: inline-block;
+	float:none;
+	padding-left: 5%;
+	/*border: 1px solid grey;*/
+}
+nav a {
+	display:block;
+	width: 100px;
+	margin-top:25px;
+	color: #999;
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#links li {
+	padding-top:10px;
+	width:auto;
+	padding-right:20px;
+}
+#videos li {
+	display:block;
+	float:left;
+	padding:20px;
+}
+
+h1 {
+	color:#fff;
+	font-size: 30px;
+	text-align:left;
+	position:fixed;
+	left:5%;
+	margin-top:-25px;
+	text-transform: uppercase;
+	line-height:1.2 em;
+}
+h2 {
+	font-family: georgia, times, serif;
+	padding-bottom: 20px;
+	color:#f6f6f6;
+	font-size: 26px;
+	text-align:left;
+}
+h3 {
+	padding:15px 0 0 5%;
+	color:#aaa;
+	text-decoration:underline;
+	font-size: 1.1em;
+}
+h4 {
+	color:#f6f6f6;
+	font-size:1.1em;
+	font-family: georgia, times, serif;
+	padding-bottom:10px;
+}
+
+
+/*Layout Style*/
+
+#container {
+	position:relative;
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid yellow;*/
+}
+#main {
+	margin: 0 auto;
+	/*border: 2px dashed green;*/
+
+}
+#left {
+	float:left;
+	padding: 2.5%;
+	background:url(../images/pattern5.png);
+	width:56%;
+	height:500px;
+	/*border: 1px solid green;*/
+}
+#right {
+	width:34%;
+	height:500px;
+	float:right;
+	padding: 2.5%;
+	background:url(../images/pattern3.png);
+	/*border: 1px solid red;*/
+}
+#about {
+	background:url(../images/pattern7.png);
+	padding: 20px;
+}
+#about p, h2 {
+	color:#333;
+}
+#copy {
+	text-align:left;
+	padding: 50px 0 10px 5%;
+	font-weight: 200;
+	font-size: 0.8em;
+	color:#ccc;
+	/*border: 1px solid yellow;*/
+}
+#tour {
+	background:url(../images/pattern6.png);
+	padding: 20px;
+}
+#map {
+	float:left;
+	width:400px;
+	padding-right: 5%;
+	display:block;
+}
+#map p {
+	color:#333;
+	font-weight:400;
+	padding-top:20px;
+}
+#schedule {
+
+}
